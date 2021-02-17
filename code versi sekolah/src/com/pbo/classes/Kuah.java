@@ -1,5 +1,9 @@
 package com.pbo.classes;
 
 public class Kuah extends Menu{
-    Kuah(String nama_kuah, double harga){};
+    public Kuah(String nama_kuah){
+        setNama_menu(nama_kuah);
+        setHarga(0);
+        setKategori("Kuah");
+    };
 }
