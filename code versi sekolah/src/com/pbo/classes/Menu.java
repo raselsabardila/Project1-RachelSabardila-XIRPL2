@@ -28,4 +28,6 @@ public class Menu {
     public void setKategori(String kategori) {
         this.kategori = kategori;
     }
+
+
 }
